@@ -1,8 +1,8 @@
 <template>
   <v-card height="300px">
-    <v-img :src="article.urlToImage" :alt="article.title" contain></v-img>
+    <v-img :src="urlToImage" :alt="title" contain></v-img>
     <v-card-title>
-      <v-card-actions>{{ article.title }}</v-card-actions>
+      <v-card-actions>{{ title }}</v-card-actions>
     </v-card-title>
   </v-card>
 </template>
@@ -10,15 +10,11 @@
 <script>
 export default {
   props: {
-    article: {
-      type: Object,
-      default() {
-        return {
-          urlToImage: '#',
-          title: ''
-        }
-      }
-    }
+    urlToImage: {
+      type: String,
+      default: '#'
+    },
+    title: { type: String, default: '' }
   }
 }
 </script>

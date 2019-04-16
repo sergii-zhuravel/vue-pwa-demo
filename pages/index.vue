@@ -4,7 +4,10 @@
       <v-layout row wrap>
         <v-flex v-for="(article, index) in articles" :key="index" xs3>
           <a :href="article.url" target="_blank">
-            <news-card :article="article" />
+            <news-card
+              :url-to-image="article.urlToImage"
+              :title="article.title"
+            />
           </a>
         </v-flex>
       </v-layout>
