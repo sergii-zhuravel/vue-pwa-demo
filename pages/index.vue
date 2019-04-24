@@ -1,8 +1,8 @@
 <template>
   <section class="section">
-    <v-container fluid grid-list-lg>
+    <v-container fluid grid-list-md>
       <v-layout row wrap>
-        <v-flex v-for="(article, index) in articles" :key="index" xs3>
+        <v-flex v-for="(article, index) in articles" :key="index" xs6 md3>
           <a :href="article.url" target="_blank">
             <news-card
               :url-to-image="article.urlToImage"
