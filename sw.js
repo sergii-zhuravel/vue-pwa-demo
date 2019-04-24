@@ -2,28 +2,28 @@ importScripts('/vue-pwa-demo/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/vue-pwa-demo/_nuxt/0bcf40b35aa7457b5cad.js",
-    "revision": "e87a84dde885964ca1b4c727edb5abbe"
+    "url": "/vue-pwa-demo/_nuxt/027bb6d760781ae7d0ad.js",
+    "revision": "0211ab77ada731006a43dc6c30143d15"
   },
   {
-    "url": "/vue-pwa-demo/_nuxt/0cd03e9a71cc436a37aa.js",
-    "revision": "71d2f9bac747ee55d1dd8474e0e6e5e4"
+    "url": "/vue-pwa-demo/_nuxt/37f65d08349d7df40e73.js",
+    "revision": "7de152d7aa46a96112ae1f20329cefae"
   },
   {
-    "url": "/vue-pwa-demo/_nuxt/25850eaa3bb6f24ea0ce.js",
-    "revision": "ee2fce4d7af856001707e6c92d6d4c5b"
+    "url": "/vue-pwa-demo/_nuxt/60f3ba7563799348a711.js",
+    "revision": "e686c3d8170cb2c7e76371f5216bb1f4"
   },
   {
-    "url": "/vue-pwa-demo/_nuxt/82c0579cf036ca1c0d2e.js",
-    "revision": "654e0f0df07153c947eb56720477aef4"
+    "url": "/vue-pwa-demo/_nuxt/849ee62b29b8fb211780.js",
+    "revision": "24364af12b715a5dad47cb51fbf7cfe4"
   },
   {
-    "url": "/vue-pwa-demo/_nuxt/950261bc5d4b48878924.js",
-    "revision": "c67301f281c22b00509217a7dd3dd6c4"
+    "url": "/vue-pwa-demo/_nuxt/9386fc12649cb50737ee.js",
+    "revision": "e0a2bb2095162395736d52fea6e25a7d"
   },
   {
-    "url": "/vue-pwa-demo/_nuxt/d2ab45777f41e1f902ea.js",
-    "revision": "7caa0502e0ed239767c8dc5040bdef74"
+    "url": "/vue-pwa-demo/_nuxt/e706f1ef1a785b7d276b.js",
+    "revision": "c4343dd9fdc642cb1120524210b29591"
   }
 ], {
   "cacheId": "nuxt_demo_app",
